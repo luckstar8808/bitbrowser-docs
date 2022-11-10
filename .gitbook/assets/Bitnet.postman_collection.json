@@ -1,0 +1,418 @@
+{
+  "info": {
+    "_postman_id": "6b8f9a36-761c-4676-85d1-f860013d40aa",
+    "name": "Bitnet",
+    "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+    "_exporter_id": "4444109"
+  },
+  "item": [
+    {
+      "name": "创建、更新修改窗口",
+      "event": [
+        {
+          "listen": "test",
+          "script": {
+            "exec": [
+              "pm.test(\"success?\", function () {",
+              "    var jsonData = pm.response.json();",
+              "    pm.expect(jsonData.success).to.eql(true);",
+              "});"
+            ],
+            "type": "text/javascript"
+          }
+        }
+      ],
+      "request": {
+        "auth": {
+          "type": "bearer",
+          "bearer": [
+            {
+              "key": "token",
+              "value": "eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIyYzljMjlhMjdlMjMwZDE0MDE3ZTIzYzE1MWNlMDAzNiIsImlhdCI6MTY1NTM2NzY5OX0.kNS57QX-PVNseQG9ZTr1UpwwVMdrS_eEQYYfA1P40MWnj7km18mJV9YhBfJE3-MSOhdigYWeo3asyFlGFweOZg",
+              "type": "string"
+            }
+          ]
+        },
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"platform\": \"https://twitter.com/\",\n    \"platformIcon\": \"twitter\",\n    \"url\": \"\",\n    \"name\": \"\",\n    \"userName\": \"\",\n    \"password\": \"\",\n    \"cookie\": \"[{\\\"name\\\":\\\"guest_id_marketing\\\",\\\"value\\\":\\\"v1%3A166364085709359995\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"guest_id_ads\\\",\\\"value\\\":\\\"v1%3A166364085709359995\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"personalization_id\\\",\\\"value\\\":\\\"\\\\\\\"v1_D+jJdTScpnZ2nRgopfoKDw==\\\\\\\"\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"guest_id\\\",\\\"value\\\":\\\"v1%3A166364085709359995\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"ct0\\\",\\\"value\\\":\\\"29d28263efac093cdf815cd556fb52cd\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameParty\\\":false},{\\\"name\\\":\\\"_s\\\",\\\"value\\\":\\\"DEocEcs75Ozs496PWKK6Zg4SIhXWxdNStYEnQlY0B4jmiCAagFSgs3I%2FUqfEmqIe\\\",\\\"domain\\\":\\\".app.link\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"_ga\\\",\\\"value\\\":\\\"GA1.2.1792958280.1663640866\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":false,\\\"session\\\":false,\\\"sameParty\\\":false},{\\\"name\\\":\\\"_gid\\\",\\\"value\\\":\\\"GA1.2.2023144936.1663640866\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":false,\\\"session\\\":false,\\\"sameParty\\\":false},{\\\"name\\\":\\\"_sl\\\",\\\"value\\\":\\\"1\\\",\\\"domain\\\":\\\"twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameParty\\\":false},{\\\"name\\\":\\\"HMACCOUNT_BFESS\\\",\\\"value\\\":\\\"1D4A4386C2B1539F\\\",\\\"domain\\\":\\\".hm.baidu.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"Hm_lvt_6d1ded1c026b1259cbbe98cd099dfdea\\\",\\\"value\\\":\\\"1663640868\\\",\\\"domain\\\":\\\".chuhai2345.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":false,\\\"session\\\":false,\\\"sameParty\\\":false},{\\\"name\\\":\\\"att\\\",\\\"value\\\":\\\"1-QAs5KPFRd2C88peju92O4bvS30RduvYsvFpfuRHJ\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":true,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"NID\\\",\\\"value\\\":\\\"511=R3mnz-kMt_vKhijVWhTgypGzpHRZFK4OE2J6K_oMpL_BAYxtHEcJgvr5vH2fz_ODnqkxlRMjqTHINVFd3_TzhFdRF5hT_moMuN_2dRklGBf2WWS4IRcXKieWWHvelPFwRs4EPrffDDJYE10T3MYQzcZNTvylrnOF5-roMpnvyrM\\\",\\\"domain\\\":\\\".google.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":true,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameSite\\\":\\\"None\\\",\\\"sameParty\\\":false},{\\\"name\\\":\\\"_twitter_sess\\\",\\\"value\\\":\\\"BAh7CSIKZmxhc2hJQzonQWN0aW9uQ29udHJvbGxlcjo6Rmxhc2g6OkZsYXNo%250ASGFzaHsABjoKQHVzZWR7ADoPY3JlYXRlZF9hdGwrCLIGuViDAToMY3NyZl9p%250AZCIlNjE2NjczNzdmYzMwMzM3YWUyNDRhMTVmN2U0MzQ5ZTA6B2lkIiU0M2U2%250AMjdlZGJkYzM3N2M1MmFjM2E1YjhhMTczYTYyMw%253D%253D--b9378ce4e9d178696e9459e0a9c391b724807928\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":true,\\\"secure\\\":true,\\\"session\\\":true,\\\"sameParty\\\":false},{\\\"name\\\":\\\"gt\\\",\\\"value\\\":\\\"1572049829379067905\\\",\\\"domain\\\":\\\".twitter.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":true,\\\"session\\\":false,\\\"sameParty\\\":false},{\\\"name\\\":\\\"Hm_lpvt_6d1ded1c026b1259cbbe98cd099dfdea\\\",\\\"value\\\":\\\"1663640868\\\",\\\"domain\\\":\\\".chuhai2345.com\\\",\\\"path\\\":\\\"/\\\",\\\"expires\\\":1695179090,\\\"httpOnly\\\":false,\\\"secure\\\":false,\\\"session\\\":false,\\\"sameParty\\\":false}]\",\n    \"otherCookie\": \"\",\n    \"isGlobalProxyInfo\": false,\n    \"isIpv6\": false,\n    \"proxyMethod\": 2,\n    \"proxyType\": \"noproxy\",\n    \"agentId\": \"\",\n    \"ipCheckService\": \"ip-api\",\n    \"host\": \"\",\n    \"proxyUserName\": \"\",\n    \"proxyPassword\": \"\",\n    \"lastIp\": \"114.253.59.117\",\n    \"lastCountry\": \"中国内地(CN)\",\n    \"isIpNoChange\": false,\n    \"ip\": \"\",\n    \"country\": \"\",\n    \"province\": \"\",\n    \"city\": \"\",\n    \"dynamicIpChannel\": \"\",\n    \"dynamicIpUrl\": \"\",\n    \"isDynamicIpChangeIp\": true,\n    \"remark\": \"\",\n    \"status\": 0,\n    \"operUserName\": \"\",\n    \"operTime\": \"2022-09-20 11:04:45\",\n    \"closeTime\": \"2022-09-20 11:04:48\",\n    \"isDelete\": 0,\n    \"delReason\": \"\",\n    \"isMostCommon\": 0,\n    \"isRemove\": 0,\n    \"tempStr\": null,\n    \"createdBy\": \"2c9c29a2808cf17a0180922746f50034\",\n    \"userId\": \"2c9c29a2808cf17a0180922746f50034\",\n    \"createdTime\": \"2022-09-20 10:27:32\",\n    \"recycleBinRemark\": \"\",\n    \"mainUserId\": \"2c9c29a27e230d14017e23c151ce0036\",\n    \"abortImage\": false,\n    \"abortMedia\": false,\n    \"stopWhileNetError\": false,\n    \"syncTabs\": true,\n    \"syncCookies\": true,\n    \"syncIndexedDb\": false,\n    \"syncBookmarks\": false,\n    \"syncAuthorization\": true,\n    \"syncHistory\": false,\n    \"syncGoogleAccount\": false,\n    \"allowedSignin\": false,\n    \"syncSessions\": false,\n    \"workbench\": \"chuhai2345\",\n    \"clearCacheFilesBeforeLaunch\": false,\n    \"clearCookiesBeforeLaunch\": false,\n    \"clearHistoriesBeforeLaunch\": false,\n    \"randomFingerprint\": false,\n    \"muteAudio\": false,\n    \"disableGpu\": false,\n    \"enableBackgroundMode\": false,\n    \"groupName\": \"111\",\n    \"browserFingerPrint\": {\n        \"coreVersion\": \"104\",\n        \"ostype\": \"PC\",\n        \"os\": \"Win32\",\n        \"version\": \"\",\n        \"userAgent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/92.0.4012.75 Safari/537.36\",\n        \"isIpCreateTimeZone\": true,\n        \"timeZone\": \"\",\n        \"ignoreHttpsErrors\": false,\n        \"webRTC\": \"0\",\n        \"position\": \"1\",\n        \"isIpCreatePosition\": true,\n        \"isIpCreateDisplayLanguage\": false,\n        \"displayLanguages\": \"\",\n        \"isIpCreateLanguage\": true,\n        \"languages\": \"\",\n        \"resolutionType\": \"0\",\n        \"resolution\": \"\",\n        \"openWidth\": 1280,\n        \"openHeight\": 720,\n        \"fontType\": \"2\",\n        \"font\": \"Myanmar Tet,Papyrus,AppleGothic,Segoe UI Semilight,Tamil Sangam MN,Sitka Heading,Fixedsys Regular,Baskerville,Microsoft PhangsPa,Nirmala UI Semilight\",\n        \"canvas\": \"0\",\n        \"canvasValue\": \"131833\",\n        \"webGL\": \"0\",\n        \"webGLValue\": \"915244\",\n        \"webGLMeta\": \"0\",\n        \"webGLManufacturer\": \"ARM\",\n        \"webGLRender\": \"ANGLE (NVIDIA GeForce MX130 Direct3D11 vs_5_0 ps_5_0)\",\n        \"audioContext\": \"0\",\n        \"audioContextValue\": \"33\",\n        \"mediaDevice\": \"0\",\n        \"mediaDeviceValue\": \"[{\\\"device_id\\\":\\\"7h6tslxp3140n60l3cue1ktwi3gmkp40op403u89w6yr6dgifqlxxr28p7d53dwj\\\",\\\"group_id\\\":\\\"oso77gm7g550pqs7vyu7jc24zx5a20seurvt8t86ufs37je7dzun16wem0dbsg14\\\",\\\"label\\\":\\\"Integrated Camera (0E9B:17517)\\\"},{\\\"device_id\\\":\\\"497gwo9lhs42xc89ma2nflhghj1rw303lnr9mfqkafgmlysueb5b7muoejqngyyq\\\",\\\"group_id\\\":\\\"q08nxl6aeu9rkzz0wfgy4mo8zbcmzhpawaskya7tp9q6gmg9l7umrl45wwnbbzeg\\\",\\\"label\\\":\\\"Integrated Camera (0E9B:17517)\\\"},{\\\"device_id\\\":\\\"o02b2vd4z39ik5311xp6yvj2pl3rq2ggmlzi5kvjlnd68klz3s427b7ykgu163oo\\\",\\\"group_id\\\":\\\"cijzjwp9eko2m14561xnxrlv2imqg2xywwig56faffzlaedvgergybflno8kqu2w\\\",\\\"label\\\":\\\"Integrated Camera (0E9B:17517)\\\"}]\",\n        \"speechVoices\": \"0\",\n        \"speechVoicesValue\": \"[{\\\"is_remote\\\":false,\\\"voice_uri\\\":\\\"Microsoft Anu Online (Natural) - Estonian (Estonia)\\\",\\\"name\\\":\\\"Microsoft Anu Online (Natural) - Estonian (Estonia)\\\",\\\"lang\\\":\\\"et-EE\\\"},{\\\"is_remote\\\":false,\\\"voice_uri\\\":\\\"Microsoft HoaiMy Online (Natural) - Vietnamese (Vietnam)\\\",\\\"name\\\":\\\"Microsoft HoaiMy Online (Natural) - Vietnamese (Vietnam)\\\",\\\"lang\\\":\\\"vi-VN\\\"},{\\\"is_remote\\\":false,\\\"voice_uri\\\":\\\"Microsoft Clara Online (Natural) - English (Canada)\\\",\\\"name\\\":\\\"Microsoft Clara Online (Natural) - English (Canada)\\\",\\\"lang\\\":\\\"en-CA\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google 普通话（中国大陆）\\\",\\\"name\\\":\\\"Google 普通话（中国大陆）\\\",\\\"lang\\\":\\\"zh-CN\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google 粤語（香港）\\\",\\\"name\\\":\\\"Google 粤語（香港）\\\",\\\"lang\\\":\\\"zh-HK\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google 國語（臺灣）\\\",\\\"name\\\":\\\"Google 國語（臺灣）\\\",\\\"lang\\\":\\\"zh-TW\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google 日本語\\\",\\\"name\\\":\\\"Google 日本語\\\",\\\"lang\\\":\\\"ja-JP\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google Deutsch\\\",\\\"name\\\":\\\"Google Deutsch\\\",\\\"lang\\\":\\\"de-DE\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google US English\\\",\\\"name\\\":\\\"Google US English\\\",\\\"lang\\\":\\\"en-US\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google UK English Female\\\",\\\"name\\\":\\\"Google UK English Female\\\",\\\"lang\\\":\\\"en-GB\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google UK English Male\\\",\\\"name\\\":\\\"Google UK English Male\\\",\\\"lang\\\":\\\"en-GB\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google español\\\",\\\"name\\\":\\\"Google español\\\",\\\"lang\\\":\\\"es-ES\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google español de Estados Unidos\\\",\\\"name\\\":\\\"Google español de Estados Unidos\\\",\\\"lang\\\":\\\"es-US\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google français\\\",\\\"name\\\":\\\"Google français\\\",\\\"lang\\\":\\\"fr-FR\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google हिन्दी\\\",\\\"name\\\":\\\"Google हिन्दी\\\",\\\"lang\\\":\\\"hi-IN\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google Bahasa Indonesia\\\",\\\"name\\\":\\\"Google Bahasa Indonesia\\\",\\\"lang\\\":\\\"id-ID\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google polski\\\",\\\"name\\\":\\\"Google polski\\\",\\\"lang\\\":\\\"pl-PL\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google русский\\\",\\\"name\\\":\\\"Google русский\\\",\\\"lang\\\":\\\"ru-RU\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google Nederlands\\\",\\\"name\\\":\\\"Google Nederlands\\\",\\\"lang\\\":\\\"nl-NL\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google português do Brasil\\\",\\\"name\\\":\\\"Google português do Brasil\\\",\\\"lang\\\":\\\"pt-BR\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google italiano\\\",\\\"name\\\":\\\"Google italiano\\\",\\\"lang\\\":\\\"it-IT\\\"},{\\\"is_remote\\\":true,\\\"voice_uri\\\":\\\"Google 한국의\\\",\\\"name\\\":\\\"Google 한국의\\\",\\\"lang\\\":\\\"ko-KR\\\"}]\",\n        \"hardwareConcurrency\": \"4\",\n        \"deviceMemory\": \"8\",\n        \"deviceInfoEnabled\": true,\n        \"computerName\": \"DESKTOP-47A0B70C\",\n        \"macAddr\": \"32-02-75-DF-8D-A8\",\n        \"clientRectNoiseEnabled\": true,\n        \"clientRectNoiseValue\": 606311,\n        \"doNotTrack\": \"1\",\n        \"portScanProtect\": \"0\",\n        \"portWhiteList\": \"\",\n        \"isDelete\": 0,\n        \"colorDepth\": 32,\n        \"devicePixelRatio\": 1,\n        \"disableSslCipherSuitesFlag\": false,\n        \"disableSslCipherSuites\": null,\n        \"plugins\": \"\",\n        \"enablePlugins\": false,\n        \"createdBy\": \"2c9c29a2808cf17a0180922746f50034\",\n        \"createdTime\": \"2022-09-20 10:27:32\",\n        \"isValidUsername\": true,\n        \"abortImage\": false,\n        \"abortMedia\": false,\n        \"stopWhileNetError\": false,\n        \"syncTabs\": true,\n        \"syncCookies\": true,\n        \"syncIndexedDb\": false,\n        \"syncBookmarks\": true,\n        \"syncAuthorization\": false,\n        \"syncHistory\": true,\n        \"syncGoogleAccount\": true,\n        \"allowedSignin\": true,\n        \"syncSessions\": true,\n        \"workbench\": \"chuhai2345\",\n        \"clearCacheFilesBeforeLaunch\": false,\n        \"clearCookiesBeforeLaunch\": false,\n        \"clearHistoriesBeforeLaunch\": false,\n        \"randomFingerprint\": false,\n        \"muteAudio\": false,\n        \"disableGpu\": false,\n        \"enableBackgroundMode\": false\n    },\n    \"createdName\": null,\n    \"belongUserName\": null,\n    \"updateName\": null,\n    \"agentIpCount\": 1,\n    \"belongToMe\": false,\n    \"seqExport\": null,\n    \"groupIDs\": null,\n    \"browserShareID\": null,\n    \"share\": null,\n    \"isValidUsername\": true,\n    \"createNum\": 0,\n    \"isRandomFinger\": false\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:62388/browser/update",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "62388",
+          "path": ["browser", "update"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "浏览器列表",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"page\":0,\n    \"pageSize\": 10\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:59792/browser/list",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "59792",
+          "path": ["browser", "list"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "创建分组",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"groupName\":\"tesdfsdfsfst\",\n    \"sortNum\": 1\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:51937/group/add",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "51937",
+          "path": ["group", "add"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "修改分组",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"groupName\":\"testsdddddd\",\n    \"sortNum\": 1,\n    \"id\":\"2c9c29a28092e28101809876e92e0157\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:59576/group/edit",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "59576",
+          "path": ["group", "edit"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "删除分组",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"2c996b377f1fed56017f29bbdd960d91\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:51937/group/delete",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "51937",
+          "path": ["group", "delete"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "获取分组详情",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"2c9c29a2808cab0101808cc4fdfb000d\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:62733/group/detail",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "62733",
+          "path": ["group", "detail"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "获取分组list",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"page\": 0,\n    \"pageSize\": 10\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:53021/group/list",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "53021",
+          "path": ["group", "list"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "自定义排列窗口",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n      \"type\": \"box\",\n      \"startX\": 0,\n      \"startY\": 0,\n      \"width\": 500,\n      \"height\": 300,\n      \"col\": 4,\n      \"spaceX\": 0,\n      \"spaceY\": 0,\n      \"offsetX\": 50,\n      \"offsetY\": 50\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:57132/windowbounds",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "57132",
+          "path": ["windowbounds"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "打开浏览器",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"5623a71c3fc846dc815e738becb25bb7\",\n    \"args\": [],\n    \"loadExtensions\": false\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:2070/browser/open",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "2070",
+          "path": ["browser", "open"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "批量修改分组",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"groupId\":\"2c996b377f1fed56017f29bbdd960d91\",\n    \"browserIds\": [\"3b79c7a8cb504a8d89520c889be22cd0\"]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:57252/browser/group/update",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "57252",
+          "path": ["browser", "group", "update"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "批量修改备注",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"remark\":\"sdfsdfsdfsdfsd d233\",\n    \"browserIds\": [\"2533af785c51471788d213330a83e60c\"]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:62000/browser/remark/update",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "62000",
+          "path": ["browser", "remark", "update"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "批量修改代理",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n\t\"ids\": [\"7b3b564736b04fe182bb36943a669cd9\"],\n\t\"ipCheckService\": \"ip123\",\n\t\"proxyMethod\": 2,\n\t\"proxyType\": \"noproxy\",\n\t\"host\": \"\",\n\t\"proxyUserName\": \"\",\n\t\"proxyPassword\": \"\",\n\t\"ip\": \"\",\n\t\"city\": \"\",\n\t\"province\": \"\",\n\t\"country\": \"\",\n\t\"isIpNoChange\": false,\n\t\"dynamicIpUrl\": \"\",\n\t\"dynamicIpChannel\": \"\",\n\t\"isDynamicIpChangeIp\": true,\n\t\"isGlobalProxyInfo\": false\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:65233/browser/proxy/update",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "65233",
+          "path": ["browser", "proxy", "update"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "关闭浏览器窗口",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"3b79c7a8cb504a8d89520c889be22cd0\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:51781/browser/close",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "51781",
+          "path": ["browser", "close"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "批量关闭浏览器窗口",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"seqs\": [1,3782,3783,9999]\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:64984/browser/close/byseqs",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "64984",
+          "path": ["browser", "close", "byseqs"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "删除浏览器窗口",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"2c9c29a28138186a01813822682b000f\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:49550/browser/delete",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "49550",
+          "path": ["browser", "delete"]
+        }
+      },
+      "response": []
+    },
+    {
+      "name": "获取浏览器窗口详情",
+      "request": {
+        "method": "POST",
+        "header": [],
+        "body": {
+          "mode": "raw",
+          "raw": "{\n    \"id\":\"e6fc0c9748584eefa8b473b0372a063a\"\n}",
+          "options": {
+            "raw": {
+              "language": "json"
+            }
+          }
+        },
+        "url": {
+          "raw": "http://127.0.0.1:52391/browser/detail",
+          "protocol": "http",
+          "host": ["127", "0", "0", "1"],
+          "port": "52391",
+          "path": ["browser", "detail"]
+        }
+      },
+      "response": []
+    }
+  ]
+}
