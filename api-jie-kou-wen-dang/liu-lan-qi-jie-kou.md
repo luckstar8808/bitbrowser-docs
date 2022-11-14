@@ -627,7 +627,6 @@ false
   clientRectNoiseValue: 0, // clientRectNoiseEnabled开启时随机，值 1 - 999999
   portScanProtect: '0', // 端口扫描保护 0开启｜1关闭
   portWhiteList: '', // 端口扫描保护开启时的白名单，逗号分隔
-  colorDepth: '32', // 颜色深度
   deviceInfoEnabled: true, // 自定义设备信息，默认开启
   computerName: '', // deviceInfoEnabled 为true时，设置
   macAddr: '', // deviceInfoEnabled 为true时，设置
