@@ -612,8 +612,8 @@ false
   webGL: '0', //webGL图像，0随机｜1关闭
   webGLValue: null, // webGL为0时，随机噪音值 10000 - 1000000
   webGLMeta: '0', //webgl元数据 0自定义｜1关闭
-  webGLManufacturer: '', // webGLMeta 自定义时，webGL厂商值，参考附录
-  webGLRender: '', // webGLMeta自定义时，webGL渲染值，参考附录
+  webGLManufacturer: '', // webGLMeta 自定义时，webGL厂商值，建议留空会自动生成，手工改参考附录
+  webGLRender: '', // webGLMeta自定义时，webGL渲染值，建议留空自动生成，手工改参考附录
   audioContext: '0', // audioContext值，0随机｜1关闭
   audioContextValue: null, // audioContext为随机时，噪音值， 1 - 100 ，关闭时默认10
   mediaDevice: '0', // 媒体设备信息，0自定义｜1关闭
