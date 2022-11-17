@@ -140,7 +140,7 @@ proxyMethod = 3时，提取IP链接
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="syncTabs" type="Boolean" %}
-是否同步浏览器 ，默认true
+是否同步浏览器tabs ，默认true
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="syncCookies" type="Boolean" %}
@@ -152,15 +152,23 @@ proxyMethod = 3时，提取IP链接
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="syncBookmarks" type="Boolean" %}
-同步书签，默认true
+同步书签，默认false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="syncAuthorization" type="Boolean" %}
-同步已保存的密码，默认true
+同步已保存的密码，默认false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="syncHistory" type="Boolean" %}
-同步历史记录，默认true
+同步历史记录，默认false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="syncExtensions" type="Boolean" %}
+同步扩展应用数据，默认false
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="syncUserExtensions" type="Boolean" %}
+跨窗口同步扩展应用，默认false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="isValidUsername" type="Boolean" %}
@@ -612,8 +620,8 @@ false
   webGL: '0', //webGL图像，0随机｜1关闭
   webGLValue: null, // webGL为0时，随机噪音值 10000 - 1000000
   webGLMeta: '0', //webgl元数据 0自定义｜1关闭
-  webGLManufacturer: '', // webGLMeta 自定义时，webGL厂商值，参考附录
-  webGLRender: '', // webGLMeta自定义时，webGL渲染值，参考附录
+  webGLManufacturer: '', // webGLMeta 自定义时，webGL厂商值，建议留空会自动生成，手工改参考附录
+  webGLRender: '', // webGLMeta自定义时，webGL渲染值，建议留空自动生成，手工改参考附录
   audioContext: '0', // audioContext值，0随机｜1关闭
   audioContextValue: null, // audioContext为随机时，噪音值， 1 - 100 ，关闭时默认10
   mediaDevice: '0', // 媒体设备信息，0自定义｜1关闭
