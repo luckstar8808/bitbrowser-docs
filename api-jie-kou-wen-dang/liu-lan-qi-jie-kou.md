@@ -179,10 +179,6 @@ proxyMethod = 3时，提取IP链接
 允许google账号登录浏览器，默认true
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="syncSessions" type="Boolean" %}
-同步浏览器Sessions，历史记录最近关闭的标签相关，默认false
-{% endswagger-parameter %}
-
 {% swagger-parameter in="body" name="clearCacheFilesBeforeLaunch" type="Boolean" %}
 启动前清理缓存文件
 {% endswagger-parameter %}
