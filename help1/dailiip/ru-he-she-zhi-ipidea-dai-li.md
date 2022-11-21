@@ -2,7 +2,7 @@
 
 **IPIDEA代理IP链接提取教程**
 
-1、打开并登录IPIDEA官网网站；
+1、打开并登录IPIDEA官网网站（[http://www.ipidea.net/?utm-source=bite\&utm-keyword=?bite](http://www.ipidea.net/?utm-source=bite\&utm-keyword=?bite)）
 
 ![](<../../.gitbook/assets/image (23).png>)
 

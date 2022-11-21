@@ -8,19 +8,19 @@
 
 **注：1.新建环境时，建议关闭网络节点以提升创建速度。2.进行保存环境（备份环境）时，仅保存已添加的APP及APP数据！**
 
-<figure><img src="../.gitbook/assets/image (51).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
 
 第三步：创建环境（选择国家、环境配置、环境定位、新建环境）
 
 **注：点击“环境配置”，可以配置环境的各项指纹参数，以使得每个环境都是一台独一无二的手机！根据自身业务情况灵活配置即可，不做任何配置则会自动随机各项环境参数。**
 
-<figure><img src="../.gitbook/assets/微信截图_20221107132129.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/2222222222222.png" alt=""><figcaption></figcaption></figure>
 
 第四步：修改手机语言、时区
 
 1、修改语言
 
-<figure><img src="../.gitbook/assets/image (59).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3.png" alt=""><figcaption></figcaption></figure>
 
 2、修改时区
 
@@ -32,7 +32,7 @@
 
 **注：建议先关闭网络节点后，再操作，以提升执行速度！**
 
-<figure><img src="../.gitbook/assets/image (73).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/22222222222.png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 
@@ -40,11 +40,11 @@
 
 第一步：设置网络（支持多种网络节点），以v2rayNG 为示范。
 
-<figure><img src="../.gitbook/assets/image (18).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
 
 第二步：注册、登录APP，以TK为例。
 
-<figure><img src="../.gitbook/assets/image (13).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6 (3).png" alt=""><figcaption></figcaption></figure>
 
 第三步：设置直播视频素材
 
