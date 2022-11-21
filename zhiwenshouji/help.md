@@ -44,7 +44,7 @@
 
 第二步：注册、登录APP，以TK为例。
 
-<figure><img src="../.gitbook/assets/6 (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/6.png" alt=""><figcaption></figcaption></figure>
 
 第三步：设置直播视频素材
 
@@ -62,7 +62,7 @@
 
 4、设置无播（无人直播），再点“+”号开无人直播。
 
-<figure><img src="../.gitbook/assets/image (49).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/77.png" alt=""><figcaption></figcaption></figure>
 
 5、设置直播（实时直播），点“+”号开直播。
 
