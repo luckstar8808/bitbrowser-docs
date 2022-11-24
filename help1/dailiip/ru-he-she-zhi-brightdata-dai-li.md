@@ -14,7 +14,7 @@
 
 BrightData界面：
 
-注册Brightdata账户： https://brightdata.grsm.io/bitbrowser
+注册Brightdata账户：[ https://brightdata.grsm.io/bitbrowser](https://brightdata.grsm.io/bitbrowser)&#x20;
 
 进入控制版面
 
