@@ -1,6 +1,6 @@
 # 如何设置BrightData代理
 
-第1步、注册并登录比特浏览器。比特指纹浏览器官网：https://www.bitbrowser.cn/
+第1步、注册并登录比特浏览器。比特指纹浏览器官网：[https://www.bitbrowser.cn/](https://www.bitbrowser.cn/)
 
 第2步、点击浏览器窗口界面中的“创建窗口”按钮。
 
