@@ -4,7 +4,7 @@
 
 第二步、点击浏览器窗口界面中的创建窗口按钮。
 
-<figure><img src="../../.gitbook/assets/图片1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/图片1 (1).png" alt=""><figcaption></figcaption></figure>
 
 第三步、配置窗口的基础设置。
 

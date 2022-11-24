@@ -40,7 +40,7 @@
 
 第一步：设置网络（支持多种网络节点），以v2rayNG 为示范。
 
-<figure><img src="../.gitbook/assets/5.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/5 (1).png" alt=""><figcaption></figcaption></figure>
 
 第二步：注册、登录APP，以TK为例。
 

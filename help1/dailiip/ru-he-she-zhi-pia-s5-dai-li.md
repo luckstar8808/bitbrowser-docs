@@ -32,7 +32,7 @@ description: Pia S5 代理设置
 
 6.进行“代理设置”，代理类型选择“socks5”，输入"代理主机"和“代理端口”，输入完成后点击“代理检测”，检测成功后，点击“确定”，这样就设置完毕啦！
 
-<figure><img src="../../.gitbook/assets/6 (1) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/6 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 方法二：通过API获取代理
 
