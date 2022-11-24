@@ -32,6 +32,7 @@
   * [如何设置922 S5代理](help1/dailiip/ru-he-she-zhi-922-s5-dai-li.md)
   * [如何设置Proxy302代理](help1/dailiip/ru-he-she-zhi-proxy302-dai-li.md)
   * [如何设置IPHTML代理](help1/dailiip/ru-he-she-zhi-iphtml-dai-li.md)
+  * [如何设置BrightData代理](help1/dailiip/ru-he-she-zhi-brightdata-dai-li.md)
   * [如何设置PYPROXY S5代理](help1/dailiip/ru-he-she-zhi-pyproxy-s5-dai-li.md)
 * [扩展中心功能](help1/kuo-zhan-zhong-xin-gong-neng.md)
 * [账号安全](help1/ri-chang-cao-zuo/README.md)
