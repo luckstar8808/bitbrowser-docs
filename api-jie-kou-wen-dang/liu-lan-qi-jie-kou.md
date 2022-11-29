@@ -563,6 +563,28 @@ false
 {% endswagger-parameter %}
 {% endswagger %}
 
+{% swagger method="post" path="browser/pids" baseUrl="/" summary="获取已打开窗口的进程id集合，也可以用来判断窗口是否已打开，支持批量查询" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="ids" type="Array" required="true" %}
+窗口id集合，数组类型
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="正常200返回查询浏览器id的集合对象" %}
+```javascript
+{
+    "success": true,
+    "data": {
+        "02d39dd4f9c54e40bc1ef51929d27235": 69902,
+        "39dd4f4e40bc1ef51929d27232sdf3ds": 84773
+    }
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 #### windowbounds对象
 
 ```
