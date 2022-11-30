@@ -585,6 +585,24 @@ false
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger method="post" path="browser/delete/ids" baseUrl="/" summary="批量删除窗口，一次最多100个" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="ids" type="Array" required="true" %}
+窗口id集合，数组类型，必传
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 #### windowbounds对象
 
 ```
