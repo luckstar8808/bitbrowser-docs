@@ -76,7 +76,7 @@ IP库，默认ip-api，选项 ip-api | ip123in | luminati，luminati为Luminati�
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="isIpv6" type="Boolean" %}
-是否是IPv6，默认
+IP协议，是否是IPv6，默认false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="proxyUserName" %}
@@ -585,7 +585,7 @@ false
 {% endswagger-response %}
 {% endswagger %}
 
-{% swagger method="post" path="browser/delete/ids" baseUrl="/" summary="批量删除窗口，一次最多100个" %}
+{% swagger method="post" path="browser/delete/ids" baseUrl="/" summary="批量删除窗口，一次最多100个，彻底删除记录，包括缓存" %}
 {% swagger-description %}
 
 {% endswagger-description %}
