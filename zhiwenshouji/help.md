@@ -2,19 +2,29 @@
 
 ## 新建环境
 
-第一步：指纹手机开机，连接本地网络（WiFi），手机插入U盘（用于存储环境信息）
+第一步：指纹手机开机，连接本地网络（WiFi）
 
 第二步：安装所需 APP（以TK为例）；打开系统 APP（Live Tools）；添加TK APP
 
-**注：1.新建环境时，建议关闭网络节点以提升创建速度。2.进行保存环境（备份环境）时，仅保存已添加的APP及APP数据！**
+**注：**
 
-<figure><img src="../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+**1.新建环境时，建议关闭网络节点以提升创建速度。**
 
-第三步：创建环境（选择国家、环境配置、环境定位、新建环境）
+**2.进行保存环境（备份环境）时，仅保存已添加的APP及APP数据！**
 
-**注：点击“环境配置”，可以配置环境的各项指纹参数，以使得每个环境都是一台独一无二的手机！根据自身业务情况灵活配置即可，不做任何配置则会自动随机各项环境参数。**
+**3. 一个环境下尽量控制只添加1-2个APP , 否则备份的文件会太大，导致还原不稳定。**
 
-<figure><img src="../.gitbook/assets/2222222222222.png" alt=""><figcaption></figcaption></figure>
+**4. 备份环境后，在备份中的APP ,在手机中不要卸载，卸载会导致还原环境找不到APP。**
+
+<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+
+第三步：创建环境（选择国家后，点击新建环境）
+
+**注：添加APP 到环境下，点击新建环境后，打开添加的APP ,app识别的环境为新环境，如想更换，就再次点击新建环境，每次新建环境，手机各项参数都随机生成，无需自己操作。**
+
+打开APP，登陆APP 账号， 保存环境数据， 切换其他环境，在切换回来，账号还是默认登陆好的。
+
+<figure><img src="../.gitbook/assets/bb.png" alt=""><figcaption></figcaption></figure>
 
 第四步：修改手机语言、时区
 
@@ -32,7 +42,7 @@
 
 **注：建议先关闭网络节点后，再操作，以提升执行速度！**
 
-<figure><img src="../.gitbook/assets/22222222222.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (77).png" alt=""><figcaption></figcaption></figure>
 

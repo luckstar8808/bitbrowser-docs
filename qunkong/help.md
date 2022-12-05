@@ -35,7 +35,7 @@
 
 ### 打开被控窗口
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
 
 如上图所示，打开被控窗口有3种方式：
 
