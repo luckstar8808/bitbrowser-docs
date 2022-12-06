@@ -10,19 +10,25 @@
 
 **1.新建环境时，建议关闭网络节点以提升创建速度。**
 
-**2.进行保存环境（备份环境）时，仅保存已添加的APP及APP数据！**
+**2.进行保存环境（备份环境）时，仅保存已添加的APP及APP缓存数据。**
 
-**3. 一个环境下尽量控制只添加1-2个APP , 否则备份的文件会太大，导致还原不稳定。**
+**3. 一个环境下尽量控制只添加1-2个APP , 否则备份的文件太大，导致还原环境出错。**
 
-**4. 备份环境后，在备份中的APP ,在手机中不要卸载，卸载会导致还原环境找不到APP。**
+**4. 备份环境后，添加的APP在手机中不能卸载，卸载会导致还原环境报错。**
 
 <figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
 
-第三步：创建环境（选择国家后，点击新建环境）
+第三步：创建环境
 
-**注：添加APP 到环境下，点击新建环境后，打开添加的APP ,app识别的环境为新环境，如想更换，就再次点击新建环境，每次新建环境，手机各项参数都随机生成，无需自己操作。**
+添加APP 到环境下，选择对应国家，点击新建环境，等待新建完成，打开添加的APP，登陆APP 账号， 保存环境数据， 切换其他环境，在切换回来，账号还是默认登陆好的。
 
-打开APP，登陆APP 账号， 保存环境数据， 切换其他环境，在切换回来，账号还是默认登陆好的。
+**注：**
+
+**1. 每个环境下，添加进来的APP 都为独立手机环境中的APP。**
+
+**2.每次新建环境，手机各项参数都随机生成，无需自己操作。**
+
+
 
 <figure><img src="../.gitbook/assets/bb.png" alt=""><figcaption></figcaption></figure>
 
@@ -36,11 +42,15 @@
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-第五步：点击“保存环境数据”，将当前环境保存到U盘中。（便于以后切换环境时，进行环境还原）
+第五步：点击“保存环境数据”，将当前环境保存手机内部存储空间。（便于以后切换环境时，进行环境还原）
 
 ## 保存/还原/管理环境
 
-**注：建议先关闭网络节点后，再操作，以提升执行速度！**
+**注：**
+
+**1.建议先关闭网络节点后，再操作，以提升执行速度。**
+
+**2.点击保存环境，默认把备份环境文件保存在手机存储空间下的backup 文件夹下。**
 
 <figure><img src="../.gitbook/assets/image (4).png" alt=""><figcaption></figcaption></figure>
 
@@ -62,7 +72,7 @@
 
 <figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
 
-2、将视频放置 U 盘 video 文件夹
+2、将视频放置手机存储 video 文件夹下，如果没有video 文件夹，请自行创建一个名字为 video 文件夹。
 
 <figure><img src="../.gitbook/assets/image (50).png" alt=""><figcaption></figcaption></figure>
 
