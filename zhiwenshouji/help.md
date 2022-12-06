@@ -16,11 +16,11 @@
 
 **4. 备份环境后，添加的APP在手机中不能卸载，卸载会导致还原环境报错。**
 
-<figure><img src="../.gitbook/assets/image (3).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image2.png" alt=""><figcaption></figcaption></figure>
 
 第三步：创建环境
 
-添加APP 到环境下，选择对应国家，点击新建环境，等待新建完成，打开添加的APP，登陆APP 账号， 保存环境数据， 切换其他环境，在切换回来，账号还是默认登陆好的。
+添加APP 到环境下，选择对应国家，点击新建环境，等待新建完成，打开添加的APP，登陆APP 账号， 保存环境数据；若切换其他环境，再切换回来，账号还是默认登陆好的。
 
 **注：**
 
@@ -42,7 +42,7 @@
 
 <figure><img src="../.gitbook/assets/image (24).png" alt=""><figcaption></figcaption></figure>
 
-第五步：点击“保存环境数据”，将当前环境保存手机内部存储空间。（便于以后切换环境时，进行环境还原）
+第五步：点击“保存环境数据”，将当前环境保存到手机内部存储空间。（便于以后切换环境时，进行环境还原）
 
 ## 保存/还原/管理环境
 
