@@ -49,6 +49,7 @@
 * [使用代理IP平台API提取链接提取的操作方法](help2/shi-yong-dai-li-ip-ping-tai-api-ti-qu-lian-jie-ti-qu-de-cao-zuo-fang-fa.md)
 * [设置IPIDEA代理IP](help2/she-zhi-ipidea-dai-li-ip.md)
 * [设置911S5代理IP](help2/she-zhi-911s5-dai-li-ip.md)
+* [设置ABCproxy代理](help2/she-zhi-abcproxy-dai-li.md)
 
 ## 常见问题 <a href="#question" id="question"></a>
 
