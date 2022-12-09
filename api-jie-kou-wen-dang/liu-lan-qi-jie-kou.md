@@ -159,6 +159,10 @@ proxyMethod = 3时，提取IP链接
 同步已保存的密码，默认false
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="credentialsEnableService" type="Boolean" %}
+禁止保存密码弹窗，默认false
+{% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="syncHistory" type="Boolean" %}
 同步历史记录，默认false
 {% endswagger-parameter %}
