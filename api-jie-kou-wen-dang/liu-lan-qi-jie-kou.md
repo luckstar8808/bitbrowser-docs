@@ -151,6 +151,10 @@ proxyMethod = 3时，提取IP链接
 同步IndexedDB，默认false，极少的情况下才需要同步
 {% endswagger-parameter %}
 
+{% swagger-parameter in="body" name="syncLocalStorage" type="Boolean" %}
+同步Local Storage数据，默认false
+{% endswagger-parameter %}
+
 {% swagger-parameter in="body" name="syncBookmarks" type="Boolean" %}
 同步书签，默认false
 {% endswagger-parameter %}
