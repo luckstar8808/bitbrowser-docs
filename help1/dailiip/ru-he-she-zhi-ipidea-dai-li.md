@@ -42,6 +42,6 @@
 
 5、将保存的API提取链接复制在提取链接内，测试提取正常后即可使用；
 
-![](<../../.gitbook/assets/image (28).png>)
+![](../../.gitbook/assets/企业微信截图\_1671699537902.png)
 
 6、点击保存设置后，继续在其他操作已完成BitBrowser的功能设置，详情可访问（www.bitbrowser.cn）
