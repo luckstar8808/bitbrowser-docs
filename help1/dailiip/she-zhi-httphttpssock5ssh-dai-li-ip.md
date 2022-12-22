@@ -1,10 +1,10 @@
-# 设置http/https/sock5代理IP
+# 设置http/https/sock5/ssh代理IP
 
-### （1）创建浏览器窗口——设置http/https/sock5代理
+### （1）创建浏览器窗口——设置http/https/sock5/ssh代理
 
 ![创建浏览器窗口](<../../.gitbook/assets/2 (20).png>)
 
-![设置代理类型及详细信息](<../../.gitbook/assets/2 (9).png>)
+![设置代理类型及详细信息](../../.gitbook/assets/企业微信截图\_16716982653497.png)
 
 1. 客户端 -> 点击左侧菜单项“浏览器窗口” -> 点击“创建窗口”按钮。
 2. 代理方式，选择“自定义代理”！
@@ -12,7 +12,7 @@
 4. 代理类型，根据实际的类型情况进行选择，支持http、https、socks5、ssh等形式代理！
 5. 代理主机、代理端口、代理账号、代理密码根据实际情况进行填写。
 
-### （2）批量导入窗口——设置http/https/sock5代理
+### （2）批量导入窗口——设置http/https/sock5/ssh代理
 
 ![](<../../.gitbook/assets/2 (37).png>)
 
