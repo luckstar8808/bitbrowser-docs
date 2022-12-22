@@ -18,7 +18,7 @@
 
 第五步：打开BitBrowser客户端，点击“浏览器窗口”—“创建窗口”—“选择账号平台”—“代理类型选择socks5”—“输入代理主机和端口”，填写完相关信息后，点击代理检测，代理检测通过后，点击确定。
 
-<figure><img src="../../.gitbook/assets/image (2) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/image (2) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/image (29).png" alt=""><figcaption></figcaption></figure>
 

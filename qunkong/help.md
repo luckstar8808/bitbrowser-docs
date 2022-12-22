@@ -20,7 +20,7 @@
 
 如上图所示，点击箭头1处“添加窗口”按钮，在红框2处列表中，勾选需要添加到被控列表的窗口，勾选完成后，点击箭头3处的“添加”按钮，会将勾选窗口添加到**下图中红框1处**的被控列表中。
 
-<figure><img src="../.gitbook/assets/image (94) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (94).png" alt=""><figcaption></figcaption></figure>
 
 如上图所示：\
 红框1处展示所有被控窗口列表**（注：仅群控同步操作勾选的窗口，需要群控同步操作的窗口务必要勾选）**\
