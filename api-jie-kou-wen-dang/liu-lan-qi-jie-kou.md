@@ -4,7 +4,7 @@ description: 创建、修改、打开浏览器等操作接口
 
 # 浏览器接口
 
-{% swagger method="post" path="browser/update" baseUrl="/" summary="创建/修改浏览器窗口，指纹对象必传，创建窗口需要随机指纹对象时，只传空对象{}即可，指纹值里，留空会随机" %}
+{% swagger method="post" path="browser/update" baseUrl="/" summary="创建/修改浏览器窗口，指纹对象必传。创建窗口需要随机指纹对象时，只传空对象{}即可，指纹值里，留空会随机" %}
 {% swagger-description %}
 
 {% endswagger-description %}
