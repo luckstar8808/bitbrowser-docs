@@ -22,4 +22,4 @@
 * 点击铅笔形状按钮，修改角色的名称。
 * 点击删除形状按钮，可以删除角色。
 
-![](../../.gitbook/assets/xxxxxxxxxxxxxxxxxxxxxxxx.png)
+![](../../.gitbook/assets/企业微信截图\_1671773612907.png)
