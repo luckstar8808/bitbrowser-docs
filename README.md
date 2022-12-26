@@ -22,6 +22,4 @@ description: 跨境业务多开、安全、高效运行，就用比特指纹浏�
 [Broken link](broken-reference)
 {% endcontent-ref %}
 
-{% embed url="https://www.bitbrowser.cn/" %}
-点击进入：比特指纹浏览器官网
-{% endembed %}
+{% embed url="https://www.bitbrowser.cn" %}
