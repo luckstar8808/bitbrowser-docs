@@ -8,7 +8,7 @@ description: Pia S5 代理设置
 
 {% embed url="https://www.piaproxy.com/?utm-keyword=?1&utm-source=bit" %}
 
-方法一：手动设置socks5代理
+### 方法一：手动设置socks5代理
 
 1.打开Pia S5客户端，顶部的信息代表含义为：① 你的用户名 ② 本机IP及端口 ③ 剩余IP数量 ④ 代理信息
 
@@ -34,7 +34,7 @@ description: Pia S5 代理设置
 
 <figure><img src="../../.gitbook/assets/6 (1) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
-#### 方法二：通过API获取代理
+### 方法二：通过API获取代理
 
 1.进入Pia s5，点击API选项卡，选择指定的“国家”、“国家编号”、“城市”、“邮编”，点击启动代理。
 

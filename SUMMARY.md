@@ -22,7 +22,6 @@
 * [推广奖励](help1/tui-guang-jiang-li.md)
 * [代理IP设置](help1/dailiip/README.md)
   * [设置http/https/sock5/ssh代理IP](help1/dailiip/she-zhi-httphttpssock5ssh-dai-li-ip.md)
-  * [设置911S5代理IP](help1/dailiip/she-zhi-911s5-dai-li-ip.md)
   * [设置luminati/oxylabs/iphtml/ipidea等动态代理IP](help1/dailiip/she-zhi-luminatioxylabsiphtmlipidea-deng-dong-tai-dai-li-ip.md)
   * [使用代理IP平台API提取链接提取](help1/dailiip/shi-yong-dai-li-ip-ping-tai-api-ti-qu-lian-jie-ti-qu.md)
   * [如何设置Rola-IP代理](help1/dailiip/ru-he-she-zhi-rolaip-dai-li.md)
