@@ -47,7 +47,6 @@
 * [设置luminati/oxylabs/iphtml等动态代理IP](help2/she-zhi-luminatioxylabsiphtml-deng-dong-tai-dai-li-ip.md)
 * [使用代理IP平台API提取链接提取的操作方法](help2/shi-yong-dai-li-ip-ping-tai-api-ti-qu-lian-jie-ti-qu-de-cao-zuo-fang-fa.md)
 * [设置IPIDEA代理IP](help2/she-zhi-ipidea-dai-li-ip.md)
-* [设置911S5代理IP](help2/she-zhi-911s5-dai-li-ip.md)
 * [设置ABCproxy代理](help2/she-zhi-abcproxy-dai-li.md)
 
 ## 常见问题 <a href="#question" id="question"></a>
@@ -64,7 +63,6 @@
 * [日常问题](question/question3/README.md)
   * [批量导入窗口失败](question/question3/1.md)
   * [打开软件白屏](question/question3/2.md)
-  * [打开浏览器显示“911s5未启动，请启动后再进行代理”](question/question3/3.md)
   * [打开软件闪退](question/question3/4.md)
   * [打开浏览器代理失败常见原因](question/question3/5.md)
   * [为什么IP检测存在差异？](question/question3/6.md)
@@ -78,9 +76,7 @@
   * [如何删除浏览器窗口缓存及变更缓存目录？](question/question2/2.md)
   * [如何使用仿真输入功能？](question/question2/ru-he-shi-yong-fang-zhen-shu-ru-gong-neng.md)
   * [如何导入cookie到浏览器窗口？](question/question2/ru-he-dao-ru-cookie-dao-liu-lan-qi-chuang-kou.md)
-  * [如何让多个窗口使用相同的911s5的IP？](question/question2/4.md)
-  * [打开浏览器代理失败解决方法（911代理）](question/question2/5.md)
-  * [打开浏览器代理失败解决方法（非911代理）](question/question2/6.md)
+  * [打开浏览器代理失败解决方法](question/question2/6.md)
   * [任务栏不同的浏览器怎么区分？](question/question2/7.md)
   * [如何更改员工的管理权限？](question/question2/8.md)
 
