@@ -12,7 +12,7 @@
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16722068368386.png" alt=""><figcaption></figcaption></figure>
 
-4.进入比特“浏览器窗口”页面，点击配置进入到“常用设置”。
+4.进入比特“浏览器窗口”，点击配置进入到“常用设置”。
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16722046429422.png" alt=""><figcaption></figcaption></figure>
 
