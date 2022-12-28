@@ -70,7 +70,7 @@
 
 1、将视频做成尺寸（9:16）格式后；再将视频顺时针旋转 90 度后，尺寸调成 16:9。
 
-<figure><img src="../.gitbook/assets/image (52).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (52) (1).png" alt=""><figcaption></figcaption></figure>
 
 2、将视频放置手机存储 video 文件夹下，如果没有video 文件夹，请自行创建一个名字为 video 文件夹。
 
