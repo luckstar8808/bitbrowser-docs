@@ -20,10 +20,10 @@
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16722047822875.png" alt=""><figcaption></figcaption></figure>
 
-6.保存后打开浏览器窗口，进入我们需要进入的网站，选择已保存的“用户名密码”选择登陆。
+6.保存后打开浏览器窗口，进入我们需要打开的网站地址，选择已保存的“用户名密码”后点击登录。
 
 <figure><img src="../../.gitbook/assets/企业微信截图_1672205427861.png" alt=""><figcaption></figcaption></figure>
 
-7.这样就可以直接登陆进来啦！
+7.这样登录进来就算成功啦！
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16722085656030.png" alt=""><figcaption></figcaption></figure>
