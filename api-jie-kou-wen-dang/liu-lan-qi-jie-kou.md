@@ -4,6 +4,20 @@ description: 创建、修改、打开浏览器等操作接口
 
 # 浏览器接口
 
+{% swagger method="post" path="health" baseUrl="/" summary="健康检查接口，无参数，可以用来测试Local Server是否连接成功" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="" %}
+```javascript
+{
+    // Response
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 {% swagger method="post" path="browser/update" baseUrl="/" summary="创建/修改浏览器窗口，指纹对象必传。创建窗口需要随机指纹对象时，只传空对象{}即可，指纹值里，留空会随机" %}
 {% swagger-description %}
 
@@ -588,6 +602,24 @@ false
         "02d39dd4f9c54e40bc1ef51929d27235": 69902,
         "39dd4f4e40bc1ef51929d27232sdf3ds": 84773
     }
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
+{% swagger method="post" path="browser/pids/alive" baseUrl="/" summary="获取活着的给定窗口的pids，会检查进程，减少进程退出，但是窗口状态没关闭的问题" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-parameter in="body" name="ids" type="Array" required="true" %}
+窗口id集合，数组类型
+{% endswagger-parameter %}
+
+{% swagger-response status="200: OK" description="正常200返回查询浏览器id的集合对象" %}
+```javascript
+{
+    // Response
 }
 ```
 {% endswagger-response %}
