@@ -8,4 +8,8 @@
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16729940187911.png" alt=""><figcaption></figcaption></figure>
 
-<figure><img src="../../.gitbook/assets/企业微信截图_16729945752886.png" alt=""><figcaption></figcaption></figure>
+3.打开创建的浏览器窗口，进入我们“添加IP白名单”的网站，这样对应域名将不走代理IP直接连接。节省代理流量的使用。
+
+<figure><img src="../../.gitbook/assets/企业微信截图_16729953388205 (1).png" alt=""><figcaption></figcaption></figure>
+
+<figure><img src="../../.gitbook/assets/企业微信截图_1672996570326 (1).png" alt=""><figcaption></figcaption></figure>
