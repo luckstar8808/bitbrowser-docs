@@ -8,8 +8,10 @@
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16729940187911.png" alt=""><figcaption></figcaption></figure>
 
-3.打开创建的浏览器窗口，进入我们“添加IP白名单”的网站，这样对应域名将不走代理IP直接连接。节省代理流量的使用。
+3.这样一来，任何浏览器窗口，打开我们添加到代理IP白名单中的网站都将不走代理IP网络，而是走本地网络，节省代理流量的使用！
 
 <figure><img src="../../.gitbook/assets/企业微信截图_16729953388205 (1).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/企业微信截图_1672996570326 (1).png" alt=""><figcaption></figcaption></figure>
+
+**注：**下方的“常用网站快捷设定（节省代理网络流量）”，内置了一些常用网站不走代理网络的快捷设定，如有需求请自行快捷设定！
