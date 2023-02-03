@@ -70,7 +70,7 @@ description: 创建、修改、打开浏览器等操作接口
 {% swagger-parameter in="body" name="proxyMethod" type="Int" required="true" %}
 代理类型，2自定义，3提取IP，默认2
 
-注意：由于各家供应商的提取IP结果格式不统一，所以在使用脚本方式打开窗口时，不要使用3提取IP的方式，需要更换IP时，开发者自行提取IP，然后调用设置代理接口设置下代理，然后再打开窗口
+注意：设置提取IP时，需要同时设置下方dynamicIpUrl等几个字段值
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="proxyType" required="true" %}
@@ -146,7 +146,7 @@ proxyMethod = 3时，提取IP链接
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="isDynamicIpChangeIp" type="Boolean" %}
-每次打开都提取新IP，默认false
+提取IP，每次打开都提取新IP，默认false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="isGlobalProxyInfo" type="Boolean" %}
