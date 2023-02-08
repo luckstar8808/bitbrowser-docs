@@ -5,17 +5,17 @@ description: >-
 
 # 如何设置IPFoxy代理
 
-1、在ipfoxy购买我们的代理后，将“代理信息”复制下来
+1、在ipfoxy购买我们的代理后，将“代理信息”复制下来。
 
 <figure><img src="../../.gitbook/assets/1 (56).png" alt=""><figcaption></figcaption></figure>
 
 <figure><img src="../../.gitbook/assets/2 (39).png" alt=""><figcaption></figcaption></figure>
 
-2、打开比特浏览器，点击“创建窗口”
+2、打开比特浏览器，点击“创建窗口”。
 
 <figure><img src="../../.gitbook/assets/3 (21).png" alt=""><figcaption></figcaption></figure>
 
-3、创建窗口界面找到“代理设置”，填入刚刚在ipfoxy复制下来的代理信息，然后点击“检测代理”，查看是否检测成功
+3、创建窗口界面找到“代理设置”，填入刚刚在ipfoxy复制下来的代理信息，然后点击“检测代理”，查看是否检测成功。
 
 <figure><img src="../../.gitbook/assets/4 (15).png" alt=""><figcaption></figcaption></figure>
 
