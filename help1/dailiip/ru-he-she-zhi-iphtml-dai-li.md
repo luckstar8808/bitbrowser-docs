@@ -1,7 +1,3 @@
----
-description: 设置IPHTML代理
----
-
 # 如何设置IPHTML代理
 
 1、登录IPHTML后台页面：[https://www.iphtml.com/](https://www.iphtml.com/)，选择要使用的通道，点击【Proxy Zone】，进入该通道编辑界面，然后点击"Add Zone"。
