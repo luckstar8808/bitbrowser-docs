@@ -1,6 +1,6 @@
 # 如何设置IPFoxy代理
 
-IPFoxy是一家全球纯净IP代理服务商，大量提供优质且便宜的各地区独享机房、住宅、IPV6代理，助力您各种出海业务的开展。官网地址：https://ipfoxy.saaslink.net/aaTNkyI2jxmt7xG
+IPFoxy是一家全球纯净IP代理服务商，大量提供优质且便宜的各地区独享机房、住宅、IPV6代理，助力您各种出海业务的开展。官网地址：[https://ipfoxy.saaslink.net/aaTNkyI2jxmt7xG](https://ipfoxy.saaslink.net/aaTNkyI2jxmt7xG)
 
 1、在ipfoxy购买我们的代理后，将“代理信息”复制下来。
 
