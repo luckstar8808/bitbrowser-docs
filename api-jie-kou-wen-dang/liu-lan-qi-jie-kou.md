@@ -416,12 +416,20 @@ proxyMethod = 3时，提取IP链接
 窗口名称，模糊查询，非必填
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="sortProperties" %}
-排序参数，默认序号seq，非必填
+{% swagger-parameter in="body" name="remark" %}
+备注，模糊匹配
 {% endswagger-parameter %}
 
-{% swagger-parameter in="body" name="sortDirection" %}
-排序顺序，desc/asc，非必填
+{% swagger-parameter in="body" name="seq" type="Int" %}
+序号，精确查询
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="minSeq" type="Int" %}
+最小序号，范围查询，不可与seq同时使用
+{% endswagger-parameter %}
+
+{% swagger-parameter in="body" name="maxSeq" type="Int" %}
+最大序号，范围查询，不可与seq同时使用
 {% endswagger-parameter %}
 {% endswagger %}
 
