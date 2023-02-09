@@ -39,6 +39,7 @@
   * [如何修改密码](help1/ri-chang-cao-zuo/ru-he-xiu-gai-mi-ma.md)
   * [如何找回密码](help1/ri-chang-cao-zuo/ru-he-zhao-hui-mi-ma.md)
   * [如何找回用户名](help1/ri-chang-cao-zuo/ru-he-zhao-hui-yong-hu-ming.md)
+  * [如何开启双重验证登录](help1/ri-chang-cao-zuo/ru-he-kai-qi-shuang-zhong-yan-zheng-deng-lu.md)
 
 ## 帮助中心（视频教程） <a href="#help2" id="help2"></a>
 
