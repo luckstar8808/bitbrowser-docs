@@ -70,7 +70,7 @@
   * [怎么更改员工数量？](question/question3/7.md)
   * [如何获得邀请奖励？](question/question3/8.md)
 * [高手上路](question/question2/README.md)
-  * [如何使用代理IP白名单功能节省代理流量](question/question2/ru-he-shi-yong-dai-li-ip-bai-ming-dan-gong-neng-jie-sheng-dai-li-liu-liang.md)
+  * [如何使用代理IP黑名单功能节省代理流量](question/question2/ru-he-shi-yong-dai-li-ip-hei-ming-dan-gong-neng-jie-sheng-dai-li-liu-liang.md)
   * [如何导入chrome书签到所有窗口](question/question2/ru-he-dao-ru-chrome-shu-qian-dao-suo-you-chuang-kou.md)
   * [如何让每个浏览器窗口自动填充用户名密码](question/question2/ru-he-rang-mei-ge-liu-lan-qi-chuang-kou-zi-dong-tian-chong-yong-hu-ming-mi-ma.md)
   * [每个浏览窗口可以管理几个店铺、账号？](question/question2/mei-ge-liu-lan-chuang-kou-ke-yi-guan-li-ji-ge-dian-pu-zhang-hao.md)
