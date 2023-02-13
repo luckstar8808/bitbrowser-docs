@@ -1,12 +1,12 @@
 # 批量导出Cookie/批量更新Cookie
 
-批量导出Cookie
+### 批量导出Cookie
 
 打开客户端 -> 进入左侧菜单项“浏览器窗口” -> 点击“更多操作”按钮 -> 点击菜单项“批量导出Cookie”。目前支持导出选中的浏览器窗口Cookie、导出指定序号范围窗口的Cookie、导出指定分组窗口的Cookie。
 
-<figure><img src="../../.gitbook/assets/1.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../../.gitbook/assets/1 (1).png" alt=""><figcaption></figcaption></figure>
 
-批量更新Cookie
+### 批量更新Cookie
 
 打开客户端 -> 点击左侧菜单“浏览器窗口” -> 点击“创建窗口”按钮右侧的“V”图标 -> 点击“批量更新Cookie”导入需要更新的文件夹zip文件，选择“确定”按钮更新成功。
 

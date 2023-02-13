@@ -36,7 +36,7 @@
 
 1、修改语言
 
-<figure><img src="../.gitbook/assets/3 (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/3 (16).png" alt=""><figcaption></figcaption></figure>
 
 2、修改时区
 
