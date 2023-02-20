@@ -615,6 +615,21 @@ false
 {% endswagger-response %}
 {% endswagger %}
 
+{% swagger method="post" path="browser/pids/all" baseUrl="/" summary="获取所有活着的已打开的窗口的进程ID，会自动过滤掉已死掉的进程，无参数" %}
+{% swagger-description %}
+
+{% endswagger-description %}
+
+{% swagger-response status="200: OK" description="" %}
+```json
+{
+    "10702539009b4d90a862c78aed2c98c9": 23122,
+    "20702539009b4d90a862c78aed2c98c9": 32242
+}
+```
+{% endswagger-response %}
+{% endswagger %}
+
 {% swagger method="post" path="browser/pids/alive" baseUrl="/" summary="获取活着的给定窗口的pids，会检查进程，减少进程退出，但是窗口状态没关闭的问题" %}
 {% swagger-description %}
 
