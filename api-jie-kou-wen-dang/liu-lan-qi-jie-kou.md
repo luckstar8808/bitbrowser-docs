@@ -238,7 +238,7 @@ proxyMethod = 3时，提取IP链接
 {% endswagger-parameter %}
 {% endswagger %}
 
-{% swagger method="post" path="browser/open" baseUrl="/" summary="打开浏览器窗口" %}
+{% swagger method="post" path="browser/open" baseUrl="/" summary="打开浏览器窗口，返回ws和http连接地址，以及coreVersion内核版本和driver，chromedriver path" %}
 {% swagger-description %}
 
 {% endswagger-description %}
@@ -259,13 +259,15 @@ proxyMethod = 3时，提取IP链接
 是否尝试自动提取IP
 {% endswagger-parameter %}
 
-{% swagger-response status="200: OK" description="成功时，返回浏览器ws与http连接地址" %}
+{% swagger-response status="200: OK" description="成功时，返回浏览器ws与http连接地址，以及内核版本与chromedriver path" %}
 ```javascript
 {
   success: true,
   data: {
     ws: 'ws://127.0.0.1:50106/devtools/browser/679fc16c-1b48-4112-b297-3659715876d2',
-    http: '127.0.0.1:50106'
+    http: '127.0.0.1:50106',
+    coreVersion: '104',
+    driver: 'C:\\Users\\xxx\\xxx\\chromedriver.exe'
   }
 }
 ```
