@@ -2,4 +2,6 @@
 
 该视频教程，讲解比特指纹浏览器的员工管理作过程！
 
-{% embed url="https://v.youku.com/v_show/id_XNTg3OTA2NjA5Mg==.html" %}
+**西瓜视频：**
+
+{% embed url="https://www.ixigua.com/7110134045488448015" %}
