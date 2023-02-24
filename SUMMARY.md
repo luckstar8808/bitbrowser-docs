@@ -124,7 +124,7 @@
 * [操作指南（视频教程）](qunkong/help2.md)
 * [常见问题](qunkong/question.md)
 
-## ⚒ 比特指纹手机 <a href="#zhiwenshouji" id="zhiwenshouji"></a>
+## ⚒ 指纹手机 <a href="#zhiwenshouji" id="zhiwenshouji"></a>
 
 * [操作指南（图文教程）](zhiwenshouji/cao-zuo-zhi-nan-tu-wen-jiao-cheng.md)
 * [操作指南（视频教程）](zhiwenshouji/help2.md)
