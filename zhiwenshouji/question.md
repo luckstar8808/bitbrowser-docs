@@ -4,7 +4,7 @@
 
 需要把手机和电脑连接，并且电脑打开连接工具WindowsFromApp1.exe,然后点击“启动服务”，在操作备份还原新机环境时，要保证手机和电脑连接并开启服务吗，否则会弹出这个错误。
 
-<figure><img src="../.gitbook/assets/image.png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 2. 点击“获取新机”提示“服务器异常，请检查网络”
 
@@ -18,6 +18,3 @@
 
 正在研发中！
 
-#### 5. 手机GPS定位怎么设置？
-
-手机默认屏蔽了GPS定位信号，模拟手机在室内的一个环境（室内GPS无信号），即手机的定位是基于基站和WiFi进行定位的。
