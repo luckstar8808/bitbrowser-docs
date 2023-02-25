@@ -2,7 +2,7 @@
 
 #### 1. 打开C-C新机APP后，弹出“【警告】error|连接节点失败，请重试”
 
-需要把手机和电脑连接，并且电脑打开连接工具WindowsFromApp1.exe,然后点击“启动服务”，在操作备份还原新机环境时，要保证手机和电脑连接并开启服务，否则会弹出这个错误。
+需要把手机和电脑连接，并且电脑打开连接工具WindowsFromApp1.exe,然后点击“启动服务”，操作备份还原新机环境时，要保证手机和电脑连接并开启服务，否则会弹出这个错误。
 
 <figure><img src="../.gitbook/assets/image (1).png" alt=""><figcaption></figcaption></figure>
 
