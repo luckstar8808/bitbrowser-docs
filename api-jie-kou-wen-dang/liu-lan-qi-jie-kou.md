@@ -122,7 +122,7 @@ IP协议，是否是IPv6，默认false
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="workbench" type="String" %}
-浏览器窗口工作台页面，chuhai2345 或  localServer，默认chuhai2345
+浏览器窗口工作台页面，chuhai2345 或  localServer或disable，默认chuhai2345，不需要显示工作台时，设置disable
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="abortImage" type="Boolean" %}
