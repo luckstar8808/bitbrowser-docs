@@ -45,7 +45,17 @@
 
 <figure><img src="../.gitbook/assets/image (109).png" alt=""><figcaption><p>获取授权码</p></figcaption></figure>
 
-#### 2.激活C-C新机APP
+#### 2.连接并设置Wifi
+
+&#x20;      手机需要对已连接的Wifi设置网络MAC地址，设置“使用设备MAC地址”，同一个Wifi只需要设置一次，重新连接Wifi不需要重新设置，如更换连接新的Wifi，需要重新设置一遍。
+
+步骤：连接Wifi，点击Wifi后面设置，点击高级，点击隐私，选择使用设备MAC，隐私显示“使用设备MAC”设置完成。
+
+<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>连接并设置Wifi-2</p></figcaption></figure>
+
+<figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>连接并设置Wifi-2</p></figcaption></figure>
+
+#### 3.激活C-C新机APP
 
 进入C-C新机APP 首页，点击顶部版本号右侧灰色按钮，弹出输入授权码窗口（授权码在用户中心购买获取），填入获取到的授权码，点击“获取权限”如授权码正确，会获取到授权码对应可新机备份还原权限的APP名字，显示为APP：XXX，成功获取后，点击“保存”完成激活！
 
@@ -55,7 +65,7 @@
 
 <figure><img src="../.gitbook/assets/image (116).png" alt=""><figcaption><p>激活C-C新机APP-3</p></figcaption></figure>
 
-#### 3.新机环境
+#### 4.新机环境
 
 C-C新机APP激活成功后，点击底部“获取新机”上方显示“新机数据”成功获取新机数据，然后点击底部“写入重启”，点击写入重启后手机会自动重启，重启后手机新机环境生效，写入和重启过程不需要操作手机，等待重启完成即可。
 
@@ -63,7 +73,7 @@ C-C新机APP激活成功后，点击底部“获取新机”上方显示“新�
 
 <figure><img src="../.gitbook/assets/image (101).png" alt=""><figcaption><p>新机环境</p></figcaption></figure>
 
-#### 4.备份环境
+#### 5.备份环境
 
 备份当前手机环境需要先点击底部“一键获取”按钮，先获取当前手机数据，点击完成后，上方显示“当前数据”然后再点击下方“备份”按钮，弹出框填写备份账号的自定义数据，方便查找，比如当前注册APP的手机号是 86133223211，“号码”输入框，可以填写86133223211（只支持数字，必填），账号、密码、备注为选填。
 
@@ -75,7 +85,7 @@ C-C新机APP激活成功后，点击底部“获取新机”上方显示“新�
 
 <figure><img src="../.gitbook/assets/image (120).png" alt=""><figcaption><p>备份环境-3</p></figcaption></figure>
 
-#### 5.查询备份
+#### 6.查询备份
 
 点击底部“备份列表”按钮进入备份数据页面：
 
@@ -91,7 +101,7 @@ C-C新机APP激活成功后，点击底部“获取新机”上方显示“新�
 
 <figure><img src="../.gitbook/assets/image (102).png" alt=""><figcaption><p>查询备份-2</p></figcaption></figure>
 
-#### 6.还原环境
+#### 7.还原环境
 
 进入备份列表，找到需要还原的环境，点击这一行数据，进入到新机首页，首页上方显示“还原【XXXX】数据”，XXXX为还原环境的号码标识，确认是否要还原此环境，如确定还原，直接点击底部的“写入重启”按钮，等待写入并完成重启手机，重启后的手机为还原的环境。
 
@@ -101,7 +111,7 @@ C-C新机APP激活成功后，点击底部“获取新机”上方显示“新�
 
 <figure><img src="../.gitbook/assets/image (126).png" alt=""><figcaption></figcaption></figure>
 
-#### 7.更换授权APP
+#### 8.更换授权APP
 
 点击顶部版本号侧面的 APP名字按钮，弹出设置授权码，在用户中心获取新的APP授权码，删除原来授权码并填写新的授权码，然后点击“获取权限”获取成功后，点击“确定”，完成更换授权APP，后续新建环境和备份还原环境只能针对新的APP， 以前备份APP无法还原，如想对以前的APP再次还原，需要再把授权码更换成原来的。
 
@@ -111,7 +121,7 @@ C-C新机APP激活成功后，点击底部“获取新机”上方显示“新�
 
 <figure><img src="../.gitbook/assets/image (103).png" alt=""><figcaption><p>更换授权码-2</p></figcaption></figure>
 
-#### 8.使用代理IP
+#### 9.使用代理IP
 
 手机安装V\*N软件Kitsunebi APP ，本次介绍以 Kitsunebi 设置代理IP为例：
 
@@ -133,7 +143,7 @@ C-C新机APP激活成功后，点击底部“获取新机”上方显示“新�
 
 <figure><img src="../.gitbook/assets/image (114).png" alt=""><figcaption><p>使用代理-3</p></figcaption></figure>
 
-#### 9.设置手机时区和语言
+#### 10.设置手机时区和语言
 
 建议语言和时区保持和代理IP一致，打开应用APP前先设置好，备份环境同时会备份设置好的语言时区，还原回来的环境无需再重新设置。
 
