@@ -4,8 +4,6 @@
 
 {% embed url="https://v.qq.com/x/page/w3504bhai3o.html" %}
 
-
-
 **指纹手机-手机端功能介绍**
 
-{% embed url="https://v.qq.com/x/page/y3504dljb4x.html" %}
+{% embed url="https://v.qq.com/x/page/v3504wh5r3p.html" %}
