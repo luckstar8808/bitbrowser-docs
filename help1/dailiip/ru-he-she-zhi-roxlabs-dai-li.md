@@ -40,7 +40,7 @@
 
 <figure><img src="../../.gitbook/assets/image (7).png" alt=""><figcaption></figcaption></figure>
 
-3.设置“使用代理IP平台API提取链接提取”，服务商为“通用”。选择代理协议、提取方式，将在Roxlabs获取的API链接复制到比特浏览器，点击测试提取，确认保存，完成创建。
+3.设置“使用代理IP平台API提取链接提取”，服务商为“通用”。选择代理协议、提取方式，将在Roxlabs获取的API链接复制到比特浏览器，点击测试提取，确认保存，完成创建
 
 <figure><img src="../../.gitbook/assets/image (11).png" alt=""><figcaption></figcaption></figure>
 
