@@ -12,5 +12,5 @@ description: Local Api常见问题以及注意事项。
 
 Local Api的所有接口的参数传递方式为body传参，json格式，不接受request url、formdata、string等类型传参方式。建议使用postman调试接口，调通后，再进行脚本开发调用。postman调试示例如下：
 
-![](<../.gitbook/assets/image (8).png>)
+![](<../.gitbook/assets/image (8) (1).png>)
 

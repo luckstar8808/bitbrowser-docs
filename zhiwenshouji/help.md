@@ -51,7 +51,7 @@
 
 步骤：连接Wifi，点击Wifi后面设置，点击高级，点击隐私，选择使用设备MAC，隐私显示“使用设备MAC”设置完成。
 
-<figure><img src="../.gitbook/assets/image (2).png" alt=""><figcaption><p>连接并设置Wifi-2</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (2) (2).png" alt=""><figcaption><p>连接并设置Wifi-2</p></figcaption></figure>
 
 <figure><img src="../.gitbook/assets/image (129).png" alt=""><figcaption><p>连接并设置Wifi-2</p></figcaption></figure>
 

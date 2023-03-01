@@ -29,13 +29,13 @@
 
 ### 删除被控窗口
 
-<figure><img src="../.gitbook/assets/image (6).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (6) (1).png" alt=""><figcaption></figcaption></figure>
 
 如上图所示，使用鼠标右键点击“被控列表”后，会弹出菜单。点击“删除勾选窗口”，会从被控列表中删除掉当前正在勾选的窗口，点击“删除全部窗口”会从被控列表中删除掉全部窗口。
 
 ### 打开被控窗口
 
-<figure><img src="../.gitbook/assets/image (3) (1).png" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/image (3) (1) (1).png" alt=""><figcaption></figcaption></figure>
 
 如上图所示，打开被控窗口有3种方式：
 
@@ -122,7 +122,7 @@
 1. 支持按照模板格式导入左右文本、导出左右文本、生成左文本、生成右文本、输入左文本、输入右文本
 2.  如下图所示，在窗口列表中点击鼠标右键弹出菜单，点击“导出左右文本”，可以将当前窗口列表中的左右文本导出。（该导出文件也支持导入）
 
-    <figure><img src="../.gitbook/assets/image (12).png" alt=""><figcaption></figcaption></figure>
+    <figure><img src="../.gitbook/assets/image (12) (1).png" alt=""><figcaption></figcaption></figure>
 
 #### 仿真输入速度
 
