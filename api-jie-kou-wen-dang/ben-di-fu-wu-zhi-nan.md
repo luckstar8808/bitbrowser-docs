@@ -10,7 +10,7 @@ description: 调用本地API接口操作比特浏览器打开、配置代理等�
 
 注意：demo里的API参数近作为演示使用，详细参数，请以API文档为准
 
-{% file src="../.gitbook/assets/nodejs-demo (2).zip" %}
+{% file src="../.gitbook/assets/nodejs-demo.zip" %}
 
 ### Python示例代码，包含104以及92版本chromedriver.exe
 
@@ -60,4 +60,4 @@ description: 调用本地API接口操作比特浏览器打开、配置代理等�
 
 ### API调用线路图参考
 
-<figure><img src="../.gitbook/assets/Local Api 使用线路图.svg" alt=""><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/Local Api 使用线路图 (1).svg" alt=""><figcaption></figcaption></figure>
