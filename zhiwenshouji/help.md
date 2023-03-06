@@ -1,5 +1,9 @@
 # 操作指南（图文教程）
 
+### 请先购买指纹手机（真机手机）然后阅读教程，进入官网联系客服购买指纹手机&#x20;
+
+### 指纹手机官网：[https://www.bitbrowser.cn/zhiwenshouji/](https://www.bitbrowser.cn/zhiwenshouji/)
+
 ### 一、电脑端设置说明
 
 #### 1.下载安装服务工具
