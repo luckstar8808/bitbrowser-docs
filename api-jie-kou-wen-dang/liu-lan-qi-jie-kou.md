@@ -407,7 +407,7 @@ proxyMethod = 3时，提取IP链接
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="pageSize" type="Int" required="true" %}
-分页数量
+分页数量，最大，100，超出100仍然返回100条
 {% endswagger-parameter %}
 
 {% swagger-parameter in="body" name="groupId" %}
