@@ -6,17 +6,17 @@ description: 调用本地API接口操作比特浏览器打开、配置代理等�
 
 ![](../.gitbook/assets/23456.png)
 
-### JavaScript 示例代码，包含104以及92版本chromedriver.exe
+### JavaScript 示例代码
 
 注意：demo里的API参数近作为演示使用，详细参数，请以API文档为准
 
 {% file src="../.gitbook/assets/nodejs-demo.zip" %}
 
-### Python示例代码，包含104以及92版本chromedriver.exe
+### Python示例代码
 
 注意：demo里的API参数近作为演示使用，详细参数，请以API文档为准
 
-{% file src="../.gitbook/assets/python-demo.zip" %}
+{% file src="../.gitbook/assets/python-demo (2).zip" %}
 
 ### E语言示例代码
 
