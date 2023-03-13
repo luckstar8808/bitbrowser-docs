@@ -1,5 +1,7 @@
 # 如何设置Rola-IP代理
 
+Rola-IP官方网站：[http://www.rola-ip.co/#13390](http://www.rola-ip.co/#13390)
+
 1、打开软件的“代理IP推荐”页面，点击“进入推荐商Rola-IP后台”按钮，会在新页面打开第三方代理IP平台（Rola-IP平台），并且自动登录。 如下图所示：
 
 ![](<../../.gitbook/assets/2 (19).png>)

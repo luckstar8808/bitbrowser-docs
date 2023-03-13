@@ -4,9 +4,7 @@ description: Pia S5 代理设置
 
 # 如何设置Pia S5 代理
 
-
-
-{% embed url="https://www.piaproxy.com/?utm-keyword=?1&utm-source=bit" %}
+PIA S5 Proxy官网：[https://account.piaproxy.com/register?invitation\_code=IXULVD0A](https://account.piaproxy.com/register?invitation\_code=IXULVD0A)
 
 ### 方法一：手动设置socks5代理
 

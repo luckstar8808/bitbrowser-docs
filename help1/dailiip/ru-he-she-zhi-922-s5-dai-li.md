@@ -1,6 +1,6 @@
 # 如何设置922 S5代理
 
-第一步：先打开922S5官网：[http://www.922proxy.com/](http://www.922proxy.com/)，并且下载客户端安装到电脑上。
+第一步：先打开922S5官网：[https://www.922proxy.com/index.html?inviter\_code=c4af8a32](https://www.922proxy.com/index.html?inviter\_code=c4af8a32)，并且下载客户端安装到电脑上。
 
 <figure><img src="../../.gitbook/assets/image (68).png" alt=""><figcaption></figcaption></figure>
 

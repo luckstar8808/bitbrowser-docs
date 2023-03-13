@@ -1,5 +1,7 @@
 # 如何设置Dove Proxy代理
 
+Dove Proxy官网：[http://www.doveip.com//index.php?s=/index/index.html\&lang=en-us\&ap=7697187c3a2a9c01](http://www.doveip.com/index.php?s=/index/index.html\&lang=en-us\&ap=7697187c3a2a9c01)
+
 ### 设置socks5类型代理IP
 
 ![](<../../.gitbook/assets/image (82).png>)
