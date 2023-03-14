@@ -124,9 +124,3 @@
 * [操作指南（图文教程）](qunkong/help.md)
 * [操作指南（视频教程）](qunkong/help2.md)
 * [常见问题](qunkong/question.md)
-
-## ⚒ 指纹手机 <a href="#zhiwenshouji" id="zhiwenshouji"></a>
-
-* [操作指南（图文教程）](zhiwenshouji/help.md)
-* [操作指南（视频教程）](zhiwenshouji/help2.md)
-* [常见问题](zhiwenshouji/question.md)
