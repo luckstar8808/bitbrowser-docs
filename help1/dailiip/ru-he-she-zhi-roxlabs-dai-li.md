@@ -1,8 +1,8 @@
 # 如何设置Roxlabs代理
 
-**打开Roxlabs官网注册账号：**[**https://www.roxlabs.cn/?utm-source=bitbrowser\&utm-keyword=?Bitbrowser** ](https://www.roxlabs.cn/?utm-source=bitbrowser\&utm-keyword=?Bitbrowser)****
+**打开Roxlabs官网注册账号：**[**https://www.roxlabs.cn/?utm-source=bitbrowser\&utm-keyword=?Bitbrowser** ](https://www.roxlabs.cn/?utm-source=bitbrowser\&utm-keyword=?Bitbrowser)
 
-**打开比特浏览器官网下载软件：**[**https://www.bitbrowser.cn/** ](https://www.bitbrowser.cn/)****
+**打开比特浏览器官网下载软件：**[**https://www.bitbrowser.cn/** ](https://www.bitbrowser.cn/)
 
 <mark style="color:red;">**\*实名认证免费得试用流量，流量低至￥5/G**</mark>
 

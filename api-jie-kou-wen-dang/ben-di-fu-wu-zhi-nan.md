@@ -4,7 +4,7 @@ description: 调用本地API接口操作比特浏览器打开、配置代理等�
 
 # 本地服务指南
 
-![](../.gitbook/assets/23456.png)
+![](../.gitbook/assets/API手册里图片（阿浩新）.png)
 
 ### JavaScript 示例代码
 
